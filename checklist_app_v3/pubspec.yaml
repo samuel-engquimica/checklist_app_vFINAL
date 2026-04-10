@@ -1,0 +1,38 @@
+
+name: checklist_flutter
+description: App de checklist MAG com assinatura S Pen e PDF.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Biblioteca para PDF
+  pdf: ^3.11.1
+  printing: ^5.13.4
+
+  # Widget de assinatura
+  signature: ^5.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/logo_mag.png
+    - assets/foto_lateral_verde_1000rj.jpg
+    - assets/foto_trava_superior.jpg
+    - assets/foto_trava_inferior.jpg
+    - assets/images/logo_mag.png
+    - assets/templates/checklist_caminhao_template.png
+    - assets/templates/checklist_cacamba_template.png
+    - assets/images/trava_superior.png
+    - assets/images/trava_inferior.png
